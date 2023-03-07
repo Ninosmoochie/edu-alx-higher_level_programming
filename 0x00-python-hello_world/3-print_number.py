@@ -1,4 +1,3 @@
 #!/bin/bash
 number = 98
-print(f"{number} Batery street")
-
+print(f"{number} Battery street")
