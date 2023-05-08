@@ -154,7 +154,7 @@ class TestBase_save_to_file(unittest.TestCase):
     """Unittests for testing save_to_file method of Base class."""
 
     @classmethod
-    def test_tearDown(self):
+    def tearDown(self):
         """Delete any created files."""
         try:
             os.remove("Rectangle.json")
